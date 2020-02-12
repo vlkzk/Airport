@@ -12,9 +12,9 @@ public class Airport {
 
     public List<PassengerPlane> getPassengerPlane() {
         List<PassengerPlane> passengerPlanes = new ArrayList<>();
-        for (Plane p : planes) {
-            if (p instanceof PassengerPlane) {
-                passengerPlanes.add((PassengerPlane) p);
+        for (Plane plane : planes) {
+            if (plane instanceof PassengerPlane) {
+                passengerPlanes.add((PassengerPlane) plane);
             }
         }
         return passengerPlanes;
