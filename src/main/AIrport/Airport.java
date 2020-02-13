@@ -1,9 +1,5 @@
-import Planes.experimentalPlane;
 import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
-
+import Planes.*;
 import java.util.*;
 
 
@@ -103,11 +99,6 @@ public class Airport {
         return planes;
     }
 
-    private void print(Collection<? extends Plane> collection) {
-        for (Plane plane : collection) {
-            System.out.println(plane);
-        }
-    }
 
     @Override
     public String toString() {
